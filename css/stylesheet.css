@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo {
+    display: flex;
+}
+.logo img{
+    width: 110px;
+    margin-left: -20px;
+}
+
+.sous-titre{
+    margin-left: -15px;
+    font-size: 9.5px;
+}
+
+.dis {
+border: none;
+
+border-radius:20px ;
+margin-left: 20px;
+
+
+
+
+
+}
+.dis:hover{
+   background-color: rgb(233, 233, 233);
+   border-radius: 30px;
+   cursor: pointer;
+   
+}
+
+/* .web{
+    width: 25px;
+    margin-right: -400px;
+    margin-top: 12px;
+} */
+
+/* .gift{
+    width: 30px;
+    
+} */
+.gift-div img{
+    width: 30px;
+    margin-left: -50px;
+    margin-top: 10px;
+    
+}
+.gift-div img:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.web-div img{
+    width: 25px;
+    margin-left: -100px;
+    margin-top: 14px;
+}
+.web-div img:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.user-div img{
+    margin-right: -20px;
+    width: 50px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    
+
+}
+.user-div img:hover{
+    border-color: #ccc;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+ .icons{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-content{
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-content h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.searchbox{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 200PX;
+    padding-right: 200px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.container1{
+    background-color: white;
+    margin-left: -195px;
+    
+}
+.container2{
+    background-color: white;
+    margin-left: 40px;
+}
+
+.input1{
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+}
+.input2{
+    border: none;
+    background-color: white;
+}
+.text1{
+    color: black;
+    margin-left: -70px;
+}
+.text2{
+    color: black;
+    margin-right: 120px;
+}
+.box-line{
+margin-left: 100px;
+}
+.search-button{
+    margin-left: 50px;
+    color: white;
+    background-color: green;
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    border: none;
+}
+.search-button:hover{
+    cursor: pointer;
+}
+.titre{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+.icons-section{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* justify-content: center; */
+    text-align: center;
+}
+.icons-section i {
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    
+    
+}
+
+.phone-icon-section{
+    /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align:center;
+  align-items: center;
+}
+.phone-icon-section i{
+    background-color: pink;
+    
+}
+.hot-air-baloon-section{
+    /* justify-content: center; */
+    display: flex;
+  flex-direction: column;
+  gap: 30px;
+     align-items: center;
+}
+.hot-air-baloon-section i{
+background-color: #CCF3EA;
+    
+}
+.star-icon-section{
+    /* justify-content: center; */
+    display: flex;
+  flex-direction: column;
+  gap: 30px;
+   align-items: center;
+}
+.star-icon-section i{
+    background-color: #F6ECBB;
+   
+}
+.schedule-icon-section{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    display: flex;
+  flex-direction: column;
+  gap: 30px;
+   align-items: center;
+}
+.schedule-icon-section i{
+     background-color: #DEECED;
+   
+}
+.p{
+    margin-top: -20px;
+}
+.bookings-section{
+    background-color:#F7EEFF;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.signup-div{
+    display: flex;
+    margin-top: 10px;
+}
+.bookings-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.bookings-button{
+    margin-top: 50px;
+}
